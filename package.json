@@ -1,0 +1,21 @@
+{
+  "name": "RealChat",
+  "version": "1.0.0",
+  "description": "More real than actual conversation",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanhuang8/RealChat.git"
+  },
+  "author": "Mark Riley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evanhuang8/RealChat/issues"
+  },
+  "homepage": "https://github.com/evanhuang8/RealChat",
+  "dependencies": {
+    "ejs": "2.3.x",
+    "express": "4.13.x",
+    "socket.io": "1.3.x"
+  }
+}
