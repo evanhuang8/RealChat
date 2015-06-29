@@ -1,6 +1,16 @@
 var express = require('express');
+var session = require('express-session');
 var socketio = require('socket.io');
 var app = express();
+
+app.use(session({
+  secret: 'tooreal',
+  cookie: {
+    httpOnly: false,
+    secure: false,
+    maxAge: null
+  }
+}));
 
 app.use('/static/', express.static('static'));
 
